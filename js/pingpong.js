@@ -2,7 +2,6 @@ function Calculator(skinName) {
   this.skin = skinName;
 }
 
-
 Calculator.prototype.pingPong = function(goal) {
   var output = [];
   for (var i = 1; i <= goal; i++) {
